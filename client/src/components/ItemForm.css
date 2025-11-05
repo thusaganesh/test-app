@@ -1,0 +1,55 @@
+/* ItemForm.css */
+.item-form {
+  margin-bottom: 20px;
+  padding: 16px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.item-form h2 {
+  margin-bottom: 12px;
+}
+
+.item-form .grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+
+.item-form .grid span-full {
+  grid-column: span 2;
+}
+
+.item-form input,
+.item-form textarea {
+  width: 100%;
+  padding: 6px 8px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.item-form button {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.item-form button:hover {
+  background-color: #0056b3;
+}
+
+.item-form .status {
+  margin-left: 8px;
+}
+
+.item-form .status.saved {
+  color: green;
+}
+
+.item-form .status.error {
+  color: red;
+}
